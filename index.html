@@ -36,6 +36,10 @@
       </div>
   </body>
   <script>
+   $(document).ready(function () {
+     $("#limpiar").click(function () {
+            $("#myTable tbody").empty()
+      });
 
   $( "#obtenerInformacion" ).click(function() {
         var nombre_canton = $("#buscar").val();
@@ -92,8 +96,6 @@
               v.html(cadena);
            });
          });
-         $( "#limpiar" ).click(function() {
-          $('#myTable tbody').empty(); 
       });
   </script>
 </html>

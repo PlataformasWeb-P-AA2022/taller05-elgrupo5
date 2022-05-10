@@ -1,0 +1,13 @@
+td{
+    background: #98bfde;
+  }
+table {
+    border: 1px solid #000;
+    width: 100%;
+ }
+ th, td {
+    text-align: left;
+    width: 25%;
+    border: 1px solid #000;
+    vertical-align: top;
+  }
